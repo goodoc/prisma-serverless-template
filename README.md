@@ -40,6 +40,7 @@
 4. 배포할 스테이지에 맞는 .env파일 생성
    * staging: .env.staging
    * production: .env.production
+   * 환경변수는 람다 - 구성 - 환경변수 에서도 자유롭게 수정 가능하다.
 
 5. yarn deploy:stg / yarn deploy:prd
    * 스테이지 이름 및 배포설정파일 이름 수정시, package.json의 스크립트 수정
